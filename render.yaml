@@ -3,7 +3,6 @@ services:
   - type: web
     name: video-portfolio-backend
     env: node
-    plan: free
     buildCommand: cd server && npm install
     startCommand: cd server && npm start
     envVars:
@@ -26,7 +25,6 @@ services:
   - type: web
     name: video-portfolio-frontend
     env: static
-    plan: free
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
     envVars:
