@@ -1,0 +1,4 @@
+applicationKey=K003V8Dve6R+brpFn9oXAnrGe0nEGgE
+KeyID=0038fefd2493ceb0000000001
+bucket name=my-video-portfolio
+endpoint url=s3.eu-central-003.backblazeb2.com

@@ -1,0 +1,31 @@
+{
+  "name": "video-portfolio-server",
+  "version": "1.0.0",
+  "description": "Backend server for video portfolio app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "@aws-sdk/client-s3": "^3.267.0",
+    "@aws-sdk/s3-request-presigner": "^3.267.0",
+    "node-cron": "^3.0.2",
+    "dotenv": "^16.0.3",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": ["video", "upload", "backblaze", "express", "nodejs"],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+} 
